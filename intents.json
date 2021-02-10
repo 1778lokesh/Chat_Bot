@@ -1,0 +1,60 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+		{"tag": "Misc",
+         "patterns": ["Whats up", "Wassup", "Sup"],
+         "responses": ["Nothing much, Thank you for asking"],
+         "context_set": ""
+        },
+			
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(. Type quit to end the conversation", "Talk to you later. Type quit to end the conversation. Type quit to end the conversation", "Goodbye!. Type quit to end the conversation"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Lokesh Bot", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 1 day old!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "name", "What is your name"],
+         "responses": ["You can call me Lokesh bot.", "I'm Lokesh bot!"],
+         "context_set": ""
+        },
+        {"tag": "Menu",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat", "menu", "Today Special", "Special","Whats there to eat"],
+         "responses": ["Starter", "Soup", "Biriyani", "Chinese"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "Open Time", "Open Hours", "Open?"],
+         "responses": ["We are open 8am-10pm Monday-Saturday!"],
+         "context_set": ""
+        },
+		{"tag": "SoupList",
+         "patterns": ["Soups", "Soup", "Salads", "Id like to buy some soups",  "What soup do you recommend"],
+         "responses": ["Hot & Sour Soup", "Egg Drop Soup", "Jelly Fish Salad", "Seafood Soup", "Chicken Soup", "Mutton SOup", "Prawns Soup"],
+         "context_set": ""
+        },
+		{"tag": "StarterList",
+         "patterns": ["Starter", "Starters", "Start", "Id like to buy some Starters",  "What soup do you Starter"],
+         "responses": ["Methi Muthia (Steamed, Fried, Air-Fryer)","Paneer Tikka","Sweet Potato Tikki","Sabudana Tikki","Indian Onion Salad (Laccha Pyaaz)","Dal Vada Recipe (Gujarati Moong Dalwada)","Paneer 65 Recipe","Methi Muthia (Steamed, Fried, Air-Fryer)","Paneer Tikka","Chicken Lollypop","Chicken Tikki","Andhra Chicken","Chicken Vada Recipe","Chicken 65 Recipe"],
+         "context_set": ""
+        },
+		
+		{"tag": "MainCourse",
+         "patterns": ["rice", "Biriyani", "Meal", "Id like to buy some Starters",  "What soup do you Starter"],
+         "responses": ["Hyd Chicken Biriyani", "Spl Mandi Biriyani","Murgh Koftey Ki Biryani","Handi Biryani","Garlic and Egg Fried Rice","Three Layered Rice","Kashmiri Chicken Pulao","Zafrani Pulao","Brown Basmati Rice Pilaf","Mutton Biryani"],
+         "context_set": ""
+        },
+		{"tag": "ChiniesCourse",
+         "patterns": ["Chinese"],
+         "responses": ["Noodles","Szechwan Chilli Chicken","Spring Rolls"],
+         "context_set": ""
+        }
+   ]
+}
